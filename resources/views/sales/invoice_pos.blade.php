@@ -81,7 +81,7 @@
             </tr>
 
             <tr class="mt-10">
-              <td colspan="3" class="total">{{ __('translate.Total') }}</td>
+              <td colspan="3" class="total">{{ "Total" }}</td>
               <td  class="total text-right">
                 @{{sale.GrandTotal}}</td>
             </tr>
@@ -92,12 +92,12 @@
                  @{{sale.paid_amount}}</td>
             </tr>
 
-            <tr v-show="isPaidLessThanTotal">
+            {{-- <tr v-show="isPaidLessThanTotal">
               <td colspan="3" class="total">{{ __('translate.Due') }}</td>
               <td class="total text-right">
                 @{{sale.due}}
               </td>
-            </tr>
+            </tr> --}}
           </tbody>
         </table>
 

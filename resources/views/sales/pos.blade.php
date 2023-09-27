@@ -80,21 +80,21 @@
             </button>
           </div>
 
-          <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 mt-3">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-3">
             <div class="row">
-              <div class="col-12 col-lg-8">
+              <div class="col-12 col-lg-12">
                 <div class="row">
 
-                  <div class="col-lg-4 col-md-6 col-sm-6" v-for="product in products"
+                  <div class="col-lg-2 col-md-3 col-sm-6" v-for="product in products"
                     @click="Check_Product_Exist(product , product.id)">
                     <div class="card product-card cursor-pointer">
                       <img :src="'/images/products/'+product.image" alt="">
                       <div class="card-body pos-card-product">
-                        <p class="text-gray-600">@{{product.name}}</p>
+                        <p class="text-black-900">@{{product.name}}</p>
                         <h6 class="title m-0"> @{{product.Net_price}}</h6>
                       </div>
                       <div class="quantity">
-                        <span>@{{formatNumber(product.qte_sale , 2)}} @{{product.unitSale}}</span>
+                        <span><strong>@{{formatNumber(product.qte_sale , 2)}} @{{product.unitSale}}</span></strong>
                       </div>
                     </div>
                   </div>
@@ -177,7 +177,7 @@
           </div>
 
           <div class="row pos-card-right">
-            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
 
               <validation-observer ref="create_pos">
                 <form>
@@ -532,7 +532,7 @@
                               </validation-provider>
                           </div>
 
-                          <div class="form-group col-md-6">
+                          {{-- <div class="form-group col-md-6">
                               <label> {{ __('translate.Account') }} </label>
                               <v-select
                                     placeholder="{{ __('translate.Choose_Account') }}"
@@ -540,7 +540,7 @@
                                   :options="accounts.map(accounts => ({label: accounts.account_name, value: accounts.id}))">
 
                               </v-select>
-                          </div>
+                          </div> --}}
 
                             <div class="form-group col-md-6">
                               <label for="note">{{ __('translate.Payment_note') }}
