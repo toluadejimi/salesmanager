@@ -17,14 +17,18 @@
 <body>
 
   <div id="in_pos">
-    <div class="hidden-print">
+
+
+      <div class="hidden-print">
+
     <a @click="print_pos()" class="btn btn-primary"> {{ __('translate.print') }}</a>
       <br>
     </div>
     <div id="invoice-POS">
       <div>
         <div class="info">
-          <h2 class="text-center">@{{setting.CompanyName}}</h2>
+            <h2 class="text-center"><img src="{{url('')}}/public/assets/log.png"></h2>
+{{--            <h2 class="text-center">@{{setting.CompanyName}}</h2>--}}
 
           {{-- <p dir="{{ $languageDirection }}"> --}}
             <span>{{ __('translate.date') }} : @{{sale.date}} <br></span>
