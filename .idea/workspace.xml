@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1364a19-34d3-4244-b3e9-a94cd93ecf49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/products/1736072005.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/products/1736073227.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/products/1736073853.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/products/1736074275.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/products/1736075084.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PosController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PosController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sales/invoice_pos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sales/invoice_pos.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sales/pos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sales/pos.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="b1364a19-34d3-4244-b3e9-a94cd93ecf49" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,28 +161,28 @@
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
     </include_path>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2rCv6he9gOmrtM77wxnW95gPj62" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Applications/XAMPP/xamppfiles/htdocs/project/posy",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Applications/XAMPP/xamppfiles/htdocs/project/posy&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
@@ -215,6 +205,7 @@
       <option name="presentableId" value="Default" />
       <updated>1736075698151</updated>
       <workItem from="1736075699501" duration="5147000" />
+      <workItem from="1736795612697" duration="219000" />
     </task>
     <servers />
   </component>
